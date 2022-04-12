@@ -1,9 +1,12 @@
 import "./App.css"
 
+// components
+import Layout from "./components/Layout/Layout"
+
 function App() {
   return (
     <div className="App">
-      <h2>Hello react world!</h2>
+      <Layout />
     </div>
   )
 }
