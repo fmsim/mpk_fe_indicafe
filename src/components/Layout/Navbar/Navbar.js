@@ -5,13 +5,17 @@ import { faBars, faSearch } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import "./Navbar.css"
+import logo from "../../../assets/images/dosa.jpg"
 
 const Navbar = () => {
   const renderNavbar = () => (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          Navbar
+        <a className="navbar-brand" href="">
+          <img src={logo} alt="Logo" className="logo" />
+          <label style={{ font: "14px", fontWeight: "bold" }}>
+            ind<span className="logo-label">iC</span>af&eacute;
+          </label>
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <FontAwesomeIcon icon={faBars} />
@@ -24,17 +28,17 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="">
                 Sign In
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="">
                 Register
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="">
                 Cart
               </a>
             </li>

@@ -30,3 +30,18 @@ nav .nav-link {
 form input[type="search"] {
   background-color: var(--primary-peach);
 }
+
+.logo {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 2px solid var(--primary-navy);
+  border-radius: 50%;
+  margin-right: 4px;
+  padding: 4px;
+  background-color: orangered;
+}
+
+.logo-label {
+  font-size: 28px;
+}
