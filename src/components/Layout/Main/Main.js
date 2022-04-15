@@ -1,7 +1,9 @@
 import React from "react"
 
+import "./Main.css"
+
 const Main = () => {
-  const renderMain = () => <div>Main</div>
+  const renderMain = props => <div className="main">Main</div>
 
   return <>{renderMain()}</>
 }

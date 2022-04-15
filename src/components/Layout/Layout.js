@@ -7,7 +7,7 @@ import Navbar from "./Navbar/Navbar"
 import Main from "./Main/Main"
 import Footer from "./Footer/Footer"
 
-const Layout = () => {
+const Layout = props => {
   const renderLayout = () => (
     <div className="layout">
       <Navbar />
