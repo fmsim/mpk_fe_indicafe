@@ -11,7 +11,7 @@ const Navbar = () => {
   const renderNavbar = () => (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
-        <a className="navbar-brand" href="">
+        <a className="navbar-brand" href="/">
           <img src={logo} alt="Logo" className="logo" />
           <label style={{ font: "14px", fontWeight: "bold" }}>
             ind<span className="logo-label">iC</span>af&eacute;
@@ -23,22 +23,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="/">
                 Browser
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="">
+              <a className="nav-link" href="/">
                 Sign In
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="">
+              <a className="nav-link" href="/">
                 Register
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="">
+              <a className="nav-link" href="/">
                 Cart
               </a>
             </li>
