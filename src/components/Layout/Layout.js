@@ -11,7 +11,9 @@ const Layout = props => {
   const renderLayout = () => (
     <div className="layout">
       <Navbar />
-      <Main />
+      <Main title={props.title} background={props.background} backdrop={props.backdrop}>
+        {props.children}
+      </Main>
       <Footer />
     </div>
   )
